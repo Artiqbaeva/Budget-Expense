@@ -5,7 +5,7 @@ import TransactionList from '../components/TransactionList';
 import Charts from '../components/Charts';
 import GoalSavings from '../components/GoalSavings';
 import FilterSearch from '../components/FilterSearch';
-import VoiceInput from '../components/VoiceInput';
+// import VoiceInput from '../components/VoiceInput';
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 pb-10">
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       <TransactionList />
       <Charts />
       <GoalSavings />
-      <VoiceInput/>
+      {/* <VoiceInput/> */}
     </div>
   );
 };
