@@ -53,9 +53,9 @@ const Charts: React.FC = () => {
               fill="#8884d8"
               label
             >
-              {expenseChartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-              ))}
+              {expenseChartData.map((_, index) => (
+               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
             </Pie>
           </PieChart>
         </ResponsiveContainer>
